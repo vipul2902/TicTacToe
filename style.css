@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    font-size: 12vmin;
+    color: chocolate;
+}
+
+#Reset{
+    padding: 1rem;
+    background-color: chartreuse;
+    font-size: 2vmin;
+    border-radius: 1rem;
+    border: none;
+}
+
+table {
+    width: 50%;
+    margin: 2rem auto; /* Center the table */
+    border-collapse: collapse; /* Remove gaps between cells */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    background-color: #fff; /* Background for the table */
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #ccc; /* Add a border to each cell */
+    text-align: center; /* Center text in the cells */
+    font-size: 1.5rem; /* Increase the text size */
+    color: #333; /* Darker text color */
+}
+
+th {
+    background-color: #f4f4f4; /* Slightly different background for the headers */
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #000; /* Darker header text color */
+}
+
+td {
+    background-color: #e7f3f7; /* Light background color for data cells */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #000;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for the heading */
+}

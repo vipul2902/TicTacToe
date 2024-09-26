@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>TicTacToe</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box">1</button>
+                <button class="box">2</button>
+                <button class="box">3</button>
+                <button class="box">4</button>
+                <button class="box">5</button>
+                <button class="box">6</button>
+                <button class="box">7</button>
+                <button class="box">8</button>
+                <button class="box">9</button>
+            </div>
+        </div>
+        <button id="Reset">Reset Game</button>
+
+        <!-- Table to show the win counts -->
+        <h2>Win Count</h2>
+        <table>
+            <tr>
+                <th>Player X Wins</th>
+                <th>Player O Wins</th>
+            </tr>
+            <tr>
+                <td id="xWins">0</td>
+                <td id="oWins">0</td>
+            </tr>
+        </table>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
